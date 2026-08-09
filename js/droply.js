@@ -6,9 +6,10 @@
  * Developer: (mindsquare)
  */
 
-jQuery.noConflict();
+//jQuery.noConflict();
 
 (function($) {
+    let mesa = $('#mesa').val();
 
     // The Droply plugin
     $.fn.droply = function(options) {
@@ -25,7 +26,7 @@ jQuery.noConflict();
                     progressSpeed: 10,
                     multi: true,
                     request: [],
-                    url: "processMultipleUploads.php?mesa=001",
+                    url: "processMultipleUploads.php?mesa=" + mesa,
                     dataType: "json",
                     limitNumberofFiles: 100,
                     required: "false",
