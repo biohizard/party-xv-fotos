@@ -5,14 +5,20 @@
 	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
 	<meta charset="UTF-8">
 
-	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Serif' rel='stylesheet' type='text/css'>
+	  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500&family=Pinyon+Script&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
 
 	<link rel="stylesheet" type="text/css" href="css/reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" type="text/css" href="css/tinycolorpicker.css">
 	<link rel="stylesheet" type="text/css" href="css/side-panel.css"> <!-- Resource style -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
-	<title>Droply.js - Minimal PHP file upload script | iTechFlare</title>
+	<title>Mis XV  ♥ Evelyn Laila | Pon tus fotografías aquí</title>
 	<meta name="description" content="Droply.js is a minimal PHP plugin that provide a professional & highly customizable multi file uploader.">
 
 	<style>
@@ -45,7 +51,7 @@
 		}
 
 		div.droply-filedrag {
-			background-color: rgb(55, 118, 185);
+			background-color: #6e2a3895;
 		}
 
 		div.droply-docs {
@@ -86,64 +92,72 @@
 
 </head>
 
-<body style="background-image:url('images/bg.jpg');background-size:cover">
+<body>
+
+
+
+  <!-- ============================ HEADER ============================ -->
+
+
+
+  <main id="main">
+    <!-- ============================ HERO ============================ -->
+    <section class="hero" id="home" aria-label="Evelyn Laila Rodríguez Martínez">
+
+      <div class="hero__bg" role="img" aria-label="Bridal bouquet of garden roses on a linen table"></div>
+      <div class="hero__inner">
+<p class="footer-monogram"> Mis XV &ThinSpace;<span class="amp">♥</span>&ThinSpace;Evelyn Laila </p>
+        <h2 class="hero__venue">Rodríguez Martínez</h2>
+        <p class="hero__meta">Sábado, 29 Agosto <span>&bull;</span> 2026</p>
+        <p class="hero__venue">Revivamos esta noche juntos</p>
+		<p class="footer-fine">Sube las fotografías que tomaste durante la celebración y ayúdanos a crear un álbum lleno de recuerdos inolvidables.</p>
 
 	<center>
 
 		<main class="cd-main-content">
-			<!-- your main content here -->
-			<img class="plugin-logo" src="images/logo.png"><br /><br />
-
-			<div class="output"></div>
 			<!-- put your arfaly container anywhere -->
 			<div id="mas"></div>
 		</main>
 
-		<div class="cd-panel from-right">
-			<header class="cd-panel-header">
-				<h1>Modify settings and click apply</h1>
-				<a href="#0" class="cd-panel-close">Close</a>
-			</header>
 
-			<div class="cd-panel-container">
-				<div class="cd-panel-content">
-					<div>
-						<h1 style="font-weight:bold;color:black;font-size:20px">Switch the style</h1>
-						<br>
-						<div id='wrapper' style="width:50px;">
-							<!-- Radio one -->
-							<input type='radio' id='radio1-1' checked='checked' name='radio'>
-							<label for='radio1-1'>Z</label> <span style="color:black">Default</span><br><br>
-							<!-- Radio two -->
-							<input type='radio' id='radio1-2' name='radio'>
-							<label for='radio1-2'>b</label> <span style="color:black">Simplex</span><br><br>
-							<!-- Radio three -->
-							<input type='radio' id='radio1-3' name='radio'>
-							<label for='radio1-3'>4</label> <span style="color:black">Super Simplex</span><br><br>
-						</div>
-
-						<h1 style="font-weight:bold;color:black;font-size:20px">Change upload item's background color</h1>
-
-						<div id='wrapper' style="width:50px;">
-							<div id="colorPicker">
-								<a class="color">
-									<div class="colorInner"></div>
-								</a>
-								<div class="track"></div>
-								<ul class="dropdown">
-									<li></li>
-								</ul>
-								<input type="hidden" class="colorInput" />
-							</div>
-						</div>
-
-						<a class='superBtn' onClick="ApplyOption()">Apply options</a>
-					</div>
-				</div> <!-- cd-panel-content -->
-			</div> <!-- cd-panel-container -->
-		</div> <!-- cd-panel -->
 
 	</center>
+
+      </div>
+      <a class="scroll-cue" href="#story" aria-label="Scroll to our story">
+        <svg viewBox="0 0 24 36" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+          stroke-linejoin="round" aria-hidden="true">
+          <rect x="7" y="1" width="10" height="20" rx="5" />
+          <path d="M12 6v4" />
+          <path d="M8 27l4 4 4-4" />
+        </svg>
+      </a>
+    </section>
+
+
+  </main>
+  <!-- ============================ FOOTER ============================ -->
+  <footer class="site-footer">
+    <div class="container">
+      <p class="footer-monogram"> Mis XV <span class="amp">&hearts;</span>Evelyn Laila </p>
+      <p class="footer-date">Sábado, 29 Agosto <span>&bull;</span> 2026</p>
+      <p class="footer-hash">#misxvlaila</p>
+
+      <ul class="footer-nav">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#details">Misa & Recepción</a></li>
+        <li><a href="#registry">Ideas de regalo</a></li>
+      </ul>
+      </ul>
+
+      <div class="footer-rule"></div>
+      <p class="footer-fine">
+        &copy; 2026 Mis XV <span class="amp">&hearts;</span>Evelyn Laila<br>
+      </p>
+    </div>
+  </footer>
+
+	
 	<input type="hidden" id="mesa" value="<?php echo $_GET['mesa']; ?>" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	<script language="javascript" type="text/javascript" src="js/modernizr.js"></script>
