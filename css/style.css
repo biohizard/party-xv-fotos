@@ -11,6 +11,14 @@
 
 
 
+@font-face {
+    font-family: 'droply';
+    src: url('../fonts/icomoon.eot?l6twan');
+    src: url('../fonts/icomoon.eot?#iefixl6twan') format('embedded-opentype'), url('../fonts/icomoon.woff?l6twan') format('woff'), url('../fonts/icomoon.ttf?l6twan') format('truetype'), url('../fonts/icomoon.svg?l6twan#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .droply-icon {
     font-family: 'droply' !important;
     font-size: 20px;
