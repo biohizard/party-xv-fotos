@@ -29,7 +29,7 @@ jQuery(document).ready(function(){
     box.tinycolorpicker();
 	
 	var picker = jQuery('#colorPicker').data("plugin_tinycolorpicker");
-    picker.setColor("#B50A0A");
+    picker.setColor('#B50A0A');
 	
 	//open the lateral panel
 	jQuery('.cd-btn').on('click', function(event){
