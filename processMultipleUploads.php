@@ -30,8 +30,8 @@ $configuration = array(
             // ===== THUMBNAILS =====
             'thumbnailEnabled' => true,
             'thumbnailFolder' => 'thumbnails',
-            'thumbnailWidth' => 320,
-            'thumbnailHeight' => 320,
+            'thumbnailWidth' => 240,
+            'thumbnailHeight' => 160,
             'thumbnailQuality' => 85,
             'thumbnailPrefix' => 'thumb_',  
 );
