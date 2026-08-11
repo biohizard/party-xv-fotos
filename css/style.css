@@ -2394,5 +2394,5 @@ a:hover { color: var(--gold); }
 
 @media (max-width: 420px) {
   .count-cell { min-width: 66px; padding: .8rem .4rem .6rem; }
-  .hero { padding-top: 6.5rem; }
+  /*.hero { padding-top: 6.5rem; }*/
 }

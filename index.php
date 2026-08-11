@@ -105,8 +105,9 @@
 
 			<div class="hero__bg" role="img" aria-label="Bridal bouquet of garden roses on a linen table"></div>
 			<div class="hero__inner">
-				<p class="footer-monogram"> Mis XV &ThinSpace;<span class="amp">♥</span>&ThinSpace;Evelyn Laila </p>
-				<h2 class="hero__venue">Rodríguez Martínez</h2>
+        		
+				<h1 class="hero__names">Mis XV <span class="amp">&hearts;</span>Evelyn Laila</h1>
+        		<h2 class="hero__venue">Rodríguez Martínez</h2>
 				<p class="hero__meta">Sábado, 29 Agosto <span>&bull;</span> 2026</p>
 				<p class="hero__venue">Revivamos esta noche juntos</p>
 				<p class="footer-fine">Sube las fotografías que tomaste durante la celebración y ayúdanos a crear un álbum lleno de recuerdos inolvidables.</p>
