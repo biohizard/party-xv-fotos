@@ -26,6 +26,14 @@ $configuration = array(
   'emailNotification' => false, // Enable if you want to recieve emails {You need to use session if you want to disable multiple notifications}
   'adminToEmail' => 'test@test.com',
   'emailSubject' => 'New file has been uploaded',
+
+            // ===== THUMBNAILS =====
+            'thumbnailEnabled' => true,
+            'thumbnailFolder' => 'thumbnails',
+            'thumbnailWidth' => 320,
+            'thumbnailHeight' => 320,
+            'thumbnailQuality' => 85,
+            'thumbnailPrefix' => 'thumb_',  
 );
 
 // Initial allowed extensions, you can add-in as many as you want
