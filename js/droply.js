@@ -58,7 +58,7 @@
                     disablePreview: false,
                     disablePostProgressAnimation: true,
                     disableRemovingItems: true,
-                    backgroundColor: '#47202B',
+                    backgroundColor: '',
                     logoColor: 'rgb(150, 155, 255)',
                     textColor: '#DADADA',
                     borderColor: '#DADADA',
