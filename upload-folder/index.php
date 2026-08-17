@@ -1,7 +1,4 @@
 <?php
-header("Access-Control-Allow-Origin: *"); // Reemplaza * por tu dominio en producción
-header("Access-Control-Allow-Headers: Content-Type, Authorization");
-header("Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS");
 
 // If this is a preflight (OPTIONS) request, exit early
 if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
