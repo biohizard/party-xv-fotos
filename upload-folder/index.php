@@ -1,11 +1,7 @@
 <?php
-
-// Allow the specific origin of your frontend development server
-header("Access-Control-Allow-Origin: http://127.0.0.1:5500");
-// Allow specific methods if necessary (GET, POST, etc.)
-header("Access-Control-Allow-Methods: POST, GET, OPTIONS");
-// Allow specific headers if your frontend sends custom headers (like Content-Type)
-header("Access-Control-Allow-Headers: Content-Type");
+header("Access-Control-Allow-Origin: *"); // Reemplaza * por tu dominio en producción
+header("Access-Control-Allow-Headers: Content-Type, Authorization");
+header("Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS");
 
 // If this is a preflight (OPTIONS) request, exit early
 if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
