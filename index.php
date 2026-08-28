@@ -1,5 +1,4 @@
 <html>
-
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
@@ -93,12 +92,7 @@
 
 <body>
 
-
-
 	<!-- ============================ HEADER ============================ -->
-
-
-
 	<main id="main">
 		<!-- ============================ HERO ============================ -->
 		<section class="hero" id="home" aria-label="Evelyn Laila Rodríguez Martínez">
@@ -137,6 +131,7 @@
 
 	</main>
 	<!-- ============================ FOOTER ============================ -->
+	
 	<footer class="site-footer">
 		<div class="container">
 			<p class="footer-monogram"> Mis XV <span class="amp">&hearts;</span>Evelyn Laila </p>
@@ -156,7 +151,6 @@
 			</p>
 		</div>
 	</footer>
-
 
 	<input type="hidden" id="mesa" value="<?php echo $_GET['mesa']; ?>" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
