@@ -158,9 +158,9 @@
 			<p class="footer-hash">#misxvlaila</p>
 
 			<ul class="footer-nav">
-				<li><a href="#home" class="active">Home</a></li>
-				<li><a href="#details">Misa & Recepción</a></li>
-				<li><a href="#registry">Ideas de regalo</a></li>
+				<li><a href="https://party.labs26.com/xv-evelyn-laila-rodrodriguez/" class="active">Home</a></li>
+				<li><a href="https://party.labs26.com/xv-evelyn-laila-rodrodriguez/">Misa & Recepción</a></li>
+				<li><a href="https://party.labs26.com/xv-evelyn-laila-rodrodriguez/">Ideas de regalo</a></li>
 			</ul>
 			</ul>
 
