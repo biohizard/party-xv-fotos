@@ -114,7 +114,7 @@
 				<p class="hero__meta">Sábado, 29 Agosto <span>&bull;</span> 2026</p>
 				<p class="hero__venue">Revivamos esta noche juntos</p>
 				<p class="footer-fine">Sube las fotografías que tomaste durante la celebración y ayúdanos a crear un álbum lleno de recuerdos inolvidables.</p>
-
+				
 				<center>
 
 					<main class="cd-main-content">
